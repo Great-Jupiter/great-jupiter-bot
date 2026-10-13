@@ -2,7 +2,7 @@ import logging
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = "8842104179:AAHqPXP5cECd77diF5Jw84u1qsFDucqQruc"
+TOKEN = "8842104179:AAHqPXP5eECd77diF5Jw84u1qsFDucqQruc"
 IL_TUO_CANALE_LINK = "https://t.me/+oA8lp-NvSxsxYTk0"
 MESSAGGIO_BENVENUTO = (
     "👋 **Benvenuto nel gruppo!**\n\n"
