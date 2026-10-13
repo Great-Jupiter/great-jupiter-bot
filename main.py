@@ -2,7 +2,10 @@ import logging
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = "8842104179:AAEmtUu47NgudEivhiLWj-Gng5ZKXFvsyS0"
+import os
+TOKEN = os.environ.get("TELEGRAM_TOKEN")
+
+
 IL_TUO_CANALE_LINK = "https://t.me/+oA8lp-NvSxsxYTk0"
 
 MESSAGGIO_BENVENUTO = (
